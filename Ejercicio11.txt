@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir "Introduzca cuantos dias se estará de viaje el empleado"
+	Leer dias
+	Escribir "Costo del hotel por un día"
+	Leer hotel
+	Escribir "Costo de la comida por un día"
+	Leer comida
+	cheque <- comida+hotel*dias+100*dias
+	Escribir "El monto del cheque será: ",cheque
+FinAlgoritmo

@@ -1,0 +1,8 @@
+Proceso sin_titulo
+	Escribir "Ingrese el precio de la pieza"
+	Leer precio
+	Escribir "Ingrese el porcentaje de la ganancia"
+	Leer porc
+	precioventa<-(100+porc)*precio/100
+	Escribir "El precio de venta es: ",precioventa
+FinProceso

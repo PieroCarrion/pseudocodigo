@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Introduzca las horas trabajadas por el empleado"
+	Leer hrs
+	Escribir "Introduzca el equivalente de una hora trabajada en su empresa"
+	Leer tarifa1hr
+	SBasico <- hrs*tarifa1hr
+	SBruto <- 118*SBasico/100
+	SNeto <- 88*SBruto/100
+	Escribir "Su sueldo básico será: ",SBasico
+	Escribir "Su sueldo bruto será: ",SBruto
+	Escribir "Su sueldo neto será: ",SNeto
+FinAlgoritmo
+

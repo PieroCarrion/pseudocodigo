@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Escriba las horas trabajas del empleado"
+	Leer Hrs
+	Escribir "Escriba el equivalente de una hora trabajada en su empresa"
+	Leer Monto
+	SB <- Hrs*Monto
+	Descuentos <- 9*SB/100+11.5*SB/100
+	SN <- SB-Descuentos
+	Escribir "El sueldo es de: ",SN
+FinAlgoritmo
+

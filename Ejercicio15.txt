@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese un número de 3 cifras"
+	Leer x
+	Si 100<=x y x<=999 Entonces
+		Si x=263 Entonces
+			Escribir "362"
+		SiNo
+			Escribir "Número correcto"
+		FinSi
+	SiNo
+		Escribir "Número incorrecto"
+	FinSi
+FinAlgoritmo

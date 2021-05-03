@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese los montos de Michaela, Efraín y Even"
+	Leer a,b,c
+	cap <- a+b+c
+	porc1 <- 100*a/cap
+	porc2 <- 100*b/cap
+	porc3 <- 100*c/cap
+	Escribir "Su capital es: ",cap
+	Escribir "Michaela aportó el: ",porc1,	 "%"
+	Escribir "Efraín aportó el: ",porc2,  "%"
+	Escribir "Even aportó el: ",porc3,  "%"
+FinAlgoritmo
+

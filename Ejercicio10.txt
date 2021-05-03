@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Escribir "Introduzca la distancia entre ambas ciudades"
+	Leer D
+	Escribir "Introduzca la velocidad del ciclista(Constante)"
+	Leer V
+	t <- D/V
+	Escribir "El ciclista tardará: ",t
+FinAlgoritmo
+

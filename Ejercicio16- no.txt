@@ -1,0 +1,10 @@
+Proceso sin_titulo
+	Escribir "Ingrese un número capicúa"
+	Leer x
+	Si 100<=x y x<=999,9 Entonces
+		x<-
+	Sino
+		Escribir "Número no capicúa"
+	FinSi
+FinProceso
+

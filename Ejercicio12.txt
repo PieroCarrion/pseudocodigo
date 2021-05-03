@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el promedio del alumno"
+	Leer x
+	Si x<=20 Entonces
+		Si 12.50<=x Entonces
+			Escribir "El alumno está APROBADO"
+		SiNo
+			Escribir "El alumno está DESAPROBADO"
+		FinSi
+	SiNo
+		Escribir "Este promedio esta fuera del límite(0-20)"
+	FinSi
+FinAlgoritmo
+

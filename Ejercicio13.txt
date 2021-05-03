@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la cantidad de GB usados"
+	Leer x
+	Si 0<x y x<=4 Entonces
+		Escribir "El usuario pagará S/.50 por mes"
+	SiNo
+		Si x<=8 Entonces
+			Escribir "El usuario pagará S/.85 por mes"
+		SiNo
+			z <- x-8
+			v <- z*4.5
+			q <- 85+v
+			Escribir "El usuario pagará S/.",q " por mes"
+		FinSi
+	FinSi
+FinAlgoritmo
+

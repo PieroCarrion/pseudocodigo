@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Escribir 'Ingrese el capital y la cantidad de acciones de los tres socios'
+	Leer capital
+	Leer m,n,p
+	porc1 <- 100*m/(m+n+p)
+	porc2 <- 100*n/(m+n+p)
+	porc3 <- 100*p/(m+n+p)
+	x <- capital*porc1/100
+	v <- capital*porc2/100
+	z <- capital*porc3/100
+	Escribir 'Primer socio aportó: ',x
+	Escribir 'Segundo socio aportó: ',v
+	Escribir 'Tercer socio aportó: ',z
+FinAlgoritmo
+

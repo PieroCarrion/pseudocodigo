@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la nota del estudiante"
+	Leer nota
+	Escribir "Ingrese la cantidad de faltas del estudiante"
+	Leer faltas
+	Si nota<=15 Entonces
+		Escribir "El alumno no cumple con los requisitos para obtener la beca"
+	SiNo
+		Si faltas>=1 Entonces
+			Escribir "El alumno no cumple con los requisitos para obtener la beca"
+		SiNo
+			Escribir "El alumno alcanzó una beca"
+		FinSi
+	FinSi
+FinAlgoritmo
+

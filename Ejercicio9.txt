@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el valor de R y H:"
+	Leer R,H
+	AT <- (R*R)/2+(RC((H+R)*(H-R)))*2
+	Escribir "El área total es: ",AT
+FinAlgoritmo
+
